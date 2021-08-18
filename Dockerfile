@@ -9,5 +9,7 @@ RUN apt-get update; \
     rm wsgate-server_linux_amd64.zip; \
     mv wsgate-server /usr/local/bin/
 
+ADD map.txt /map.txt
+
 
 ENTRYPOINT ["/usr/local/bin/wsgate-server"]
