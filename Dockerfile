@@ -27,4 +27,6 @@ RUN curl -fsSL https://download.docker.com/linux/ubuntu/gpg | gpg --dearmor -o /
     apt-get install -y docker-ce-cli; \
     apt-get clean
 
+ENV TERM=xterm
+
 ENTRYPOINT ["/usr/local/bin/gotty"]
