@@ -9,5 +9,4 @@ RUN apt-get update; \
     rm wsgate-client_linux_amd64.zip; \
     mv wsgate-client /usr/local/bin/
 
-
 ENTRYPOINT ["/usr/local/bin/wsgate-client"]
