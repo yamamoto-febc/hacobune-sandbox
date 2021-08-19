@@ -4,7 +4,7 @@ MAINTAINER Kazumichi Yamamoto <yamamoto-febc@gmail.com>
 # tools
 RUN apt-get update; \
     apt-get install -y \
-      ca-certificates curl net-tools iproute2 iputils-ping traceroute apt-transport-https gnupg2 lsb-release;
+      ca-certificates curl net-tools iproute2 iputils-ping traceroute apt-transport-https gnupg2 lsb-release vim;
 
 # gotty
 RUN curl -LO https://github.com/yudai/gotty/releases/download/v1.0.1/gotty_linux_amd64.tar.gz; \
