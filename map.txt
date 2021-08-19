@@ -1,1 +1,0 @@
-minecraft,minecraft-server:25565
